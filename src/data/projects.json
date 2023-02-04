@@ -1,0 +1,52 @@
+{
+    "projects": [
+        {
+            "id": "01",
+            "name": "Team Profile Generator",
+            "description": "A command line app that asks a user a series of questions about their team and then using the answers, creates an HTML file to display the data.",
+            "image": "",
+            "live-link": "",
+            "github-repo": ""
+        },
+        {
+            "id": "02",
+            "name": "README Generator",
+            "description": "A command line app that asks a user a series of questions and then using the answers, creates a README.md file.",
+            "image": "",
+            "live-link": "",
+            "github-repo": ""
+        },
+        {
+            "id": "03",
+            "name": "Weather App",
+            "description": "A simple weather app that allows users to see the current weather for their location.",
+            "image": "",
+            "live-link": "",
+            "github-repo": ""
+        },
+        {
+            "id": "04",
+            "name": "Work Day Scheduler",
+            "description": "A daily planner for logging tasks during the work day. Built using HTML, CSS, Javascript and jQuery. I also used a third-party API - moment.js",
+            "image": "",
+            "live-link": "",
+            "github-repo": ""
+        },
+        {
+            "id": "05",
+            "name": "Code Quiz",
+            "description": "A simple, 10 question quiz built using vanilla JavaScript. When the start button is clicked, the quiz starts. The timer starts, questions are displayed and a list of possible answers are shown. When you click on an answer you are taken to the next question. If the wrong answer is given, time will be deducted.         When the quiz is finished, your final score is displayed and you're prompted to input your initials to save your high score to local storage.",
+            "image": "",
+            "live-link": "",
+            "github-repo": ""
+        },
+        {
+            "id": "06",
+            "name": "Password Generator",
+            "description": "A password generator built using JavaScript. When the generate password button is clicked, a series of prompt ask the user to choose some options for their password. After the prompts their password is displayed in the text box. With JavaScript I learnt how to iterate through the different arrays and using the prompts from the user, choose random characters from each array and put them into a password variable which is then displayed in the HTML form.",
+            "image": "",
+            "live-link": "",
+            "github-repo": ""
+        }
+    ]
+}

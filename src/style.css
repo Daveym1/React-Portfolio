@@ -1,0 +1,13 @@
+.navbar {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar > ul li {
+    list-style: none;
+    display: inline-flex;
+    
+    padding: 0.5rem; 
+    
+}
