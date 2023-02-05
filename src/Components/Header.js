@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import "./style.css";
+import "../style.css";
 
 // Header component. Will return the navbar on each page
 
