@@ -13,11 +13,9 @@ export default function Header() {
     navRef.current.classList.toggle("responsive_nav");
   };
   return (
-    <>
-      <nav className="navbar" ref={navRef}>
-        <img src="https://loremflickr.com/150/150" alt="Logo placeholder" />
-        <h1>David Marsh</h1>
-
+    <header>
+      <h1>David Marsh</h1>
+      <nav ref={navRef}>
         <a href="/#">Home</a>
         <a href="/#">About</a>
         <a href="/#">Projects</a>
@@ -30,6 +28,6 @@ export default function Header() {
       <button className="nav-btn" onClick={showNavBar}>
         <FaBars />
       </button>
-    </>
+    </header>
   );
 }
