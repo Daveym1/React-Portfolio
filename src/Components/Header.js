@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "../style.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 // Header component. Will return the navbar on each page
 
@@ -17,11 +17,21 @@ export default function Header() {
     <header>
       <h1>David Marsh</h1>
       <nav ref={navRef}>
-        <Link to="/">Home</Link>
-        <Link to="about">About</Link>
-        <Link to="projects">Projects</Link>
-        <Link to="/cv">CV</Link>
-        <Link to="/contact">Contact</Link>
+        <NavLink to="/" onClick={showNavBar}>
+          Home
+        </NavLink>
+        <NavLink to="about" onClick={showNavBar}>
+          About
+        </NavLink>
+        <NavLink to="projects" onClick={showNavBar}>
+          Projects
+        </NavLink>
+        <NavLink to="/cv" onClick={showNavBar}>
+          CV
+        </NavLink>
+        <NavLink to="/contact" onClick={showNavBar}>
+          Contact
+        </NavLink>
         <button className="nav-btn nav-close-btn" onClick={showNavBar}>
           <FaTimes />
         </button>
