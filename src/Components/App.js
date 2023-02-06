@@ -1,10 +1,10 @@
 import Header from "./Header";
 import HomePage from "./HomePage";
 import ProjectsPage from "./ProjectsPage";
-import Project from "./Project";
 import ContactPage from "./ContactPage";
 import AboutPage from "./AboutPage";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import Cv from "./Cv";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/cv" element={<Cv />} />
         </Routes>
       </main>
     </BrowserRouter>

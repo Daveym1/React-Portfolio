@@ -28,6 +28,8 @@ nav a {
     margin: 0 2rem;
     color: var(--textColor);
     text-decoration: none;
+    border-width: 0;
+    font-size: 2vw;
 }
 
 nav a:hover {
@@ -44,6 +46,18 @@ header .nav-btn {
     visibility: hidden;
     opacity: 0;
     font-size: 1.8rem;
+}
+
+header nav a.active {
+    border-bottom: 3px solid var(--secondaryColor);
+    border-width: 100%;
+    opacity: 1;
+    transition: all 0.3s ease-in;
+}
+
+body {
+    background-color: var(--mainColor);
+    color: var(--textColor);
 }
 
 @media only screen and (max-width: 1024px) {
@@ -78,8 +92,12 @@ header .nav-btn {
         right: 2rem;
     }
 
-    nav a {
+    header nav a {
         font-size: 1.5rem;
+    }
+
+    header nav a.active {
+        border-bottom: 2px solid var(--secondaryColor);
     }
 }
     
