@@ -1,5 +1,12 @@
 import React from "react";
+import Header from "./Header";
 
-export default function AboutPage() {
-  return <div>AboutPage</div>;
+function AboutPage() {
+  return (
+    <div>
+      <div>AboutPage</div>
+    </div>
+  );
 }
+
+export default AboutPage;
