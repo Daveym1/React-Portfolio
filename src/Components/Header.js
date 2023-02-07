@@ -20,9 +20,6 @@ export default function Header() {
         <NavLink to="/" onClick={showNavBar}>
           Home
         </NavLink>
-        <NavLink to="about" onClick={showNavBar}>
-          About
-        </NavLink>
         <NavLink to="projects" onClick={showNavBar}>
           Projects
         </NavLink>
