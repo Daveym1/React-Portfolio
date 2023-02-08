@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCard";
 
 export default function ProjectsPage() {
   return (
-    <div>
+    <div className="container">
       {projects.map((project) => (
         <ProjectCard key={project.id} project={project} />
       ))}
