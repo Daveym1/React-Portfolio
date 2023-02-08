@@ -56,7 +56,7 @@ header nav a.active {
 }
 
 body {
-    background-image: url("/src/images/background.jpg");
+    background-image: url("../public/images/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     color: var(--textColor);
@@ -82,6 +82,7 @@ body {
         background-color: var(--mainColor);
         transition: 1s;
         transform: translateY(-100vh);
+        z-index: 100;
     }
 
     header .responsive_nav {
@@ -112,6 +113,18 @@ body {
 .container > .row {
     padding-top: 1rem ;
     padding-bottom: 1rem ;
+}
+
+.card {
+    margin-top: 2rem;
+    color: black;
+    width: 1fr;
+}
+
+.card > img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
 }
 
     

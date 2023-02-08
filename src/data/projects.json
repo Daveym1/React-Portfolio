@@ -3,7 +3,7 @@
         "id": "01",
         "name": "Team Profile Generator",
         "description": "A command line app that asks a user a series of questions about their team and then using the answers, creates an HTML file to display the data.",
-        "image": "src/images/teamGenerator.png",
+        "image": "../images/teamGenerator.png",
         "live-link": "",
         "github-repo": ""
     },
@@ -11,7 +11,7 @@
         "id": "02",
         "name": "README Generator",
         "description": "A command line app that asks a user a series of questions and then using the answers, creates a README.md file.",
-        "image": "src/images/readmeGenerator.png",
+        "image": "../images/readmeGenerator.png",
         "live-link": "",
         "github-repo": ""
     },
@@ -19,7 +19,7 @@
         "id": "03",
         "name": "Weather App",
         "description": "A simple weather app that allows users to see the current weather for their location.",
-        "image": "src/images/weatherApp.png",
+        "image": "../images/weatherApp.png",
         "live-link": "",
         "github-repo": ""
     },
@@ -27,7 +27,7 @@
         "id": "04",
         "name": "Work Day Scheduler",
         "description": "A daily planner for logging tasks during the work day. Built using HTML, CSS, Javascript and jQuery. I also used a third-party API - moment.js",
-        "image": "src/images/WorkDayApp.png",
+        "image": "../images/WorkDayApp.png",
         "live-link": "",
         "github-repo": ""
     },
@@ -35,7 +35,7 @@
         "id": "05",
         "name": "Food2Go",
         "description": "When travelling it isn't always easy to find ingredients and nutritional information about the local dishes. That's where Food2Go comes in. Food2Go is a single page application that allows a user to choose a country and see dishes from that country. When a specific dish is chosen, a list of ingredients and nutritional information is displayed.",
-        "image": "src/images/food2go.png",
+        "image": "../images/food2go.png",
         "live-link": "",
         "github-repo": ""
     },
