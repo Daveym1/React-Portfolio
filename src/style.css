@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Rubik:wght@300;400;700&family=Syne:wght@500&display=swap');
 
+
+/* Global CSS */
 * {
     padding: 0;
     margin: 0;
@@ -14,6 +16,15 @@
     --textColor: #eee;
 }
 
+body {
+    background-image: url("../public/images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--textColor);
+}
+
+/* Navbar styling */
+
 header {
     display: flex;
     align-items: center;
@@ -23,6 +34,7 @@ header {
     background-color: rgba(13, 93, 108, 0.20);
     color: var(--textColor);
 }
+
 
 nav a {
     margin: 0 2rem;
@@ -55,12 +67,8 @@ header nav a.active {
     transition: all 0.3s ease-in;
 }
 
-body {
-    background-image: url("../public/images/background.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: var(--textColor);
-}
+/* ProjectPage Styling */
+
 
 .container {
     display: flex;
@@ -80,6 +88,40 @@ body {
     height: auto;
     max-width: 100%;
 }
+
+/* HomePage Styling */
+
+.profilePic {
+    min-width: 30%;
+    background-color: rgba(13, 93, 108, 0.20);
+    border-radius: 80%;
+    margin-bottom: 20px;
+
+}
+
+.bioContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.heading {
+
+    display: flex;
+    justify-content:right;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.bioContainer > p {
+    display: flex;
+    flex-wrap: wrap;
+
+    text-align: right;
+}
+
+
+/* Media Queries */
 
 @media (max-width: 992px) {
     .card {
