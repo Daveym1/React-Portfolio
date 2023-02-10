@@ -13,9 +13,8 @@ export default function HomePage() {
       />
         <p className="bio">
           Hey there! I'm a web developer with a passion for creating stunning
-          and user-friendly websites. My journey into tech started with a coding
-          bootcamp, where I fell in love with front-end development. Today, I
-          bring my expertise in HTML, CSS, JavaScript, Bootstrap, and Git to
+          and user-friendly websites. I
+          bring my expertise in HTML, CSS, JavaScript, Node.js and React.js to
           every project, delivering visually appealing websites that provide an
           exceptional user experience. I've had the chance to work on some
           exciting projects and collaborate with talented teams of developers

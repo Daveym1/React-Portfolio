@@ -92,32 +92,28 @@ header nav a.active {
 /* HomePage Styling */
 
 .profilePic {
-    min-width: 30%;
+    width: 25%;
     background-color: rgba(13, 93, 108, 0.20);
     border-radius: 80%;
-    margin-bottom: 20px;
+    margin: 1rem;
+    shape-outside: ellipse(42.83% 50.30% at center center);
+    margin-right: 3.5rem;
+    float: left;
 
-}
-
-.bioContainer {
-    display: flex;
-    flex-direction: row;
 }
 
 .heading {
 
     display: flex;
-    justify-content:right;
+    justify-content:center;
     padding: 1rem;
     font-size: 1.5rem;
     font-weight: bold;
 }
 
-.bioContainer > p {
-    display: flex;
-    flex-wrap: wrap;
-
-    text-align: right;
+.bio {
+ padding-top: 1rem;
+ margin-left: 1rem;
 }
 
 
@@ -127,11 +123,22 @@ header nav a.active {
     .card {
       width: 45%;
     }
-  }
+
+}
   
   @media (max-width: 720px) {
     .card {
       width: 100%;
+    }
+    .profilePic {
+        width: 40%;
+  }
+}
+
+  @media (min-width: 768px) {
+
+    .bio{
+        font-size: 1.5rem;
     }
   }
 
