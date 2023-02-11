@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function ProjectCard({ project }) {
   return (
-    <div className="card" style={{ width: "18rem" }}>
+    <div className="card snake" style={{ width: "18rem" }}>
       <img
         src={project.image}
         className="card-img-top"

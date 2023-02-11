@@ -6,24 +6,26 @@ export default function HomePage() {
     <div>
       <h1 className="heading">About Me</h1>
       <div className="bioContainer">
-      <img
-        src="../images/profilepic.png"
-        className="profilePic"
-        alt="Profile"
-      />
+        <img
+          src="../images/profilepic.png"
+          className="profilePic"
+          alt="Profile"
+        />
         <p className="bio">
           Hey there! I'm a web developer with a passion for creating stunning
-          and user-friendly websites. I
-          bring my expertise in HTML, CSS, JavaScript, Node.js and React.js to
-          every project, delivering visually appealing websites that provide an
-          exceptional user experience. I've had the chance to work on some
-          exciting projects and collaborate with talented teams of developers
-          and designers. I bring my problem-solving skills, adaptability, and
-          love of learning to every project, always striving to exceed
-          expectations and deliver outstanding results. If you're looking for a
-          web developer who's up for a challenge and driven to create something
-          amazing, look no further. Let's work together and bring your vision to
-          life!
+          and user-friendly websites. I bring my expertise in HTML, CSS,
+          JavaScript, Node.js and React.js to every project, delivering visually
+          appealing websites that provide an exceptional user experience.
+        
+            I've had the chance to work on some exciting projects and
+            collaborate with talented teams of developers and designers. I bring
+            my problem-solving skills, adaptability, and love of learning to
+            every project, always striving to exceed expectations and deliver
+            outstanding results.
+        
+          If you're looking for a web developer who's up for a challenge and
+          driven to create something amazing, look no further. Let's work
+          together and bring your vision to life!
         </p>
       </div>
     </div>

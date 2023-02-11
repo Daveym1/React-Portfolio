@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import projects from "../data/projects.json";
 
 export default function Project() {
@@ -10,7 +10,9 @@ export default function Project() {
   }
   return (
     <div>
+      <Link to="/projects">Go back to projects</Link>
       <h1>{project.name}</h1>
+      <p>{project.description}</p>
     </div>
   );
 }

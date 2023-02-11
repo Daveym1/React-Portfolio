@@ -17,11 +17,14 @@
 }
 
 body {
-    background-image: url("../public/images/background.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: var(--textColor);
-}
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+  }
+  
+  
+  
+  
+  
 
 /* Navbar styling */
 
@@ -31,7 +34,7 @@ header {
     justify-content: space-between;
     height: 80px;
     padding: 0 2rem;
-    background-color: rgba(13, 93, 108, 0.20);
+    background-color:transparent;
     color: var(--textColor);
 }
 
@@ -139,6 +142,10 @@ header nav a.active {
 
     .bio{
         font-size: 1.5rem;
+    }
+
+    .container {
+        width: 80%;
     }
   }
 
