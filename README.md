@@ -6,6 +6,10 @@
 
 A portfolio website designed and developed by me to show the projects I've been working on. This site includes a list of projects, a page containing my CV and links to my GitHub and LinkedIn profiles.
 
+## Screenshot
+
+![Portfolio screenshot](public/images/screenshot.png)
+
 ## Technologies Used
 
 For this site I used React to create the front-end UI. I used Bootstrap, as well as some custom CSS for the styling.

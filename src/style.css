@@ -75,6 +75,7 @@ header nav a.active {
 
 
 .container {
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -92,6 +93,19 @@ header nav a.active {
     height: auto;
     max-width: 100%;
 }
+
+/* Individual Project Page Styling */
+
+.mx-auto {
+  min-width: 80vw;
+}
+
+.projectButtons {
+  display: flex;
+  justify-content: center;
+}
+
+
 
 /* HomePage Styling */
 
@@ -117,7 +131,7 @@ header nav a.active {
 
 .bio {
  padding: 1rem;
- margin-left: 17rem;
+ margin-left: 1rem;
  margin-right: 2rem;
  margin-top: 1rem;
  background-color: rgba(13, 93, 108, 0.20);
@@ -155,7 +169,7 @@ header nav a.active {
 
 
 
-/* CSS */
+
 .button {
   background-color:rgba(13, 93, 108, 0.30);
   border: 1 solid #fff;

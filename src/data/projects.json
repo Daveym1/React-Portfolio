@@ -49,7 +49,7 @@
         "name": "Portfolio",
         "shortDescription": "This portfolio is designed and developed, by me, to showcase my work.",
         "longDescription": "This portfolio is designed and developed, by me, to showcase my work. I created this portfolio using React.js",
-        "image": "",
+        "image": "../images/screenshot.png",
         "liveLink": "https://main--comfy-pie-dd89ad.netlify.app/",
         "githubRepo": "https://github.com/Daveym1/react-portfolio"
     }
