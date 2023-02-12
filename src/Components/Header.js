@@ -33,9 +33,7 @@ export default function Header() {
         <NavLink to="projects" onClick={showNavBar}>
           Projects
         </NavLink>
-        <NavLink to="/cv" onClick={showNavBar}>
-          CV
-        </NavLink>
+
         <NavLink to="/contact" onClick={showNavBar}>
           Contact
         </NavLink>

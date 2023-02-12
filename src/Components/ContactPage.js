@@ -1,5 +1,11 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaEnvelope, FaPhone } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaEnvelope,
+  FaPhone,
+  FaFile,
+} from "react-icons/fa";
 import ContactForm from "./ContactForm";
 
 export default function ContactPage() {
@@ -27,6 +33,11 @@ export default function ContactPage() {
 
         <a href="tel:01234567890">
           <FaPhone size={70} />
+        </a>
+
+        <a href="/cv.pdf" download>
+          <FaFile size={70} />
+          Download my CV
         </a>
       </div>
     </div>
