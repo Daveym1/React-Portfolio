@@ -15,10 +15,19 @@ export default function ContactPage() {
       <ContactForm />
 
       <div className="contactLinks">
-        <FaGithub size={70} />
-        <FaLinkedin size={70} />
-        <FaEnvelope size={70} />
-        <FaPhone size={70} />
+        <a href="https://github.com/Daveym1">
+          <FaGithub size={70} />
+        </a>
+        <a href="https://www.linkedin.com/in/david-marsh-web-developer/">
+          <FaLinkedin size={70} />
+        </a>
+        <a href="mailto:davemarsh1@gmail.com">
+          <FaEnvelope size={70} />
+        </a>
+
+        <a href="tel:01234567890">
+          <FaPhone size={70} />
+        </a>
       </div>
     </div>
   );

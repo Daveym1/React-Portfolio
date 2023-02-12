@@ -5,8 +5,8 @@
         "shortDescription": "A command line app that creates an HTML file to display team data.",
         "longDescription": "A command line app that asks a user a series of questions about their team and then using the answers, creates an HTML file to display the data.",
         "image": "../images/teamGenerator.png",
-        "live-link": "https://github.com/Daveym1/Team-Profile-Generator",
-        "github-repo": "https://github.com/Daveym1/Team-Profile-Generator"
+        "liveLink": "https://github.com/Daveym1/Team-Profile-Generator",
+        "githubRepo": "https://github.com/Daveym1/Team-Profile-Generator"
     },
     {
         "id": "02",
@@ -14,8 +14,8 @@
         "shortDescription": "A command line app that creates a README.md file.",
         "longDescription": "A command line app that asks a user a series of questions and then using the answers, creates a README.md file.",
         "image": "../images/readmeGenerator.png",
-        "live-link": "https://github.com/Daveym1/Readme-generator",
-        "github-repo": "https://github.com/Daveym1/Readme-generator"
+        "liveLink": "https://github.com/Daveym1/Readme-generator",
+        "githubRepo": "https://github.com/Daveym1/Readme-generator"
     },
     {
         "id": "03",
@@ -23,8 +23,8 @@
         "shortDescription": "A simple weather app that allows users to see the current weather for their location.",
         "longDescription": "A simple weather app that allows users to see the current weather for their location.",
         "image": "../images/weatherApp.png",
-        "live-link": "https://daveym1.github.io/Weather_app/",
-        "github-repo": "https://github.com/Daveym1/Weather_app"
+        "liveLink": "https://daveym1.github.io/Weather_app/",
+        "githubRepo": "https://github.com/Daveym1/Weather_app"
     },
     {
         "id": "04",
@@ -32,8 +32,8 @@
         "shortDescription": "A daily planner for logging tasks during the work day.",
         "longDescription": "A daily planner for logging tasks during the work day. Built using HTML, CSS, Javascript and jQuery. I also used a third-party API - moment.js",
         "image": "../images/WorkDayApp.png",
-        "live-link": "https://daveym1.github.io/Work-Day-Scheduler/",
-        "github-repo": "https://github.com/Daveym1/Work-Day-Scheduler"
+        "liveLink": "https://daveym1.github.io/Work-Day-Scheduler/",
+        "githubRepo": "https://github.com/Daveym1/Work-Day-Scheduler"
     },
     {
         "id": "05",
@@ -41,8 +41,8 @@
         "shortDescription": "A single page application that allows a user to choose a country and see dishes from that country.",
         "longDescription": "When travelling it isn't always easy to find ingredients and nutritional information about the local dishes. That's where Food2Go comes in. Food2Go is a single page application that allows a user to choose a country and see dishes from that country. When a specific dish is chosen, a list of ingredients and nutritional information is displayed.",
         "image": "../images/food2go.png",
-        "live-link": "https://mandipn.github.io/Food2Go/",
-        "github-repo": "https://github.com/mandipn/Food2Go"
+        "liveLink": "https://mandipn.github.io/Food2Go/",
+        "githubRepo": "https://github.com/mandipn/Food2Go"
     },
     {
         "id": "06",
@@ -50,7 +50,7 @@
         "shortDescription": "This portfolio is designed and developed, by me, to showcase my work.",
         "longDescription": "This portfolio is designed and developed, by me, to showcase my work. I created this portfolio using React.js",
         "image": "",
-        "live-link": "https://main--comfy-pie-dd89ad.netlify.app/",
-        "github-repo": "https://github.com/Daveym1/react-portfolio"
+        "liveLink": "https://main--comfy-pie-dd89ad.netlify.app/",
+        "githubRepo": "https://github.com/Daveym1/react-portfolio"
     }
 ]
