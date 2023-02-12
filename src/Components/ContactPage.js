@@ -35,7 +35,7 @@ export default function ContactPage() {
           <FaPhone size={70} />
         </a>
 
-        <a href="/cv.pdf" download>
+        <a href="/CV.pdf" download>
           <FaFile size={70} />
           Download my CV
         </a>
