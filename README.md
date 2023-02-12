@@ -1,6 +1,6 @@
 # React-Portfolio
 
-[Link to the live site]()
+[Link to the live site](https://react-portfolio-3.netlify.app/)
 
 ## Description
 
