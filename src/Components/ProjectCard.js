@@ -13,7 +13,7 @@ function ProjectCard({ project }) {
       />
       <div className="card-body">
         <h5 className="card-title">{project.name}</h5>
-        <p className="card-text">{project.description}</p>
+        <p className="card-text">{project.shortDescription}</p>
         <Link to={`/project/${project.id}`} className="btn btn-primary">
           More info
         </Link>

@@ -12,7 +12,7 @@ export default function Project() {
     <div>
       <Link to="/projects">Go back to projects</Link>
       <h1>{project.name}</h1>
-      <p>{project.description}</p>
+      <p>{project.longDescription}</p>
     </div>
   );
 }
