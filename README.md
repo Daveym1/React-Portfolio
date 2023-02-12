@@ -1,6 +1,6 @@
 # React-Portfolio
 
-[Link to the live site](https://react-portfolio-3.netlify.app/)
+[Link to the live site](https://thunderous-platypus-04d6fa.netlify.app)
 
 ## Description
 
