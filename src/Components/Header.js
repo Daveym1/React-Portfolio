@@ -13,6 +13,16 @@ export default function Header() {
   const showNavBar = () => {
     navRef.current.classList.toggle("responsive_nav");
   };
+
+  const hideNavBar = () => {
+    if (window.innerWidth > 768) {
+      navRef.current.classList.remove("responsive_nav");
+    }
+  };
+
+  // Add an event listener to the window object to call the hideNavBar function on resize
+  window.addEventListener("resize", hideNavBar);
+
   return (
     <header>
       <h1>David Marsh</h1>
