@@ -30,7 +30,7 @@ export default function ContactForm() {
         value={message}
         onChange={(e) => setMessage(e.target.value)}
       />
-      <button className="button" type="submit">
+      <button className="button" type="submit" disabled>
         Send
       </button>
     </form>
