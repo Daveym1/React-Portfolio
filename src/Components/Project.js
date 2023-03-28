@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import projects from "../data/projects.json";
 
 import { FaGithub, FaLink } from "react-icons/fa";
+  
 
 export default function Project() {
   const { id } = useParams();
